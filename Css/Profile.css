@@ -1,0 +1,461 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#position{
+    position: relative;
+}
+.aBody{
+    position: relative;
+    background-image: url("../Images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin:0px;
+    font-family:'Segoe UI';
+    font-weight: 100px;
+}
+.intro{
+    background-color: whitesmoke;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 5px;
+    position: relative;
+    top:80px;
+    left: 110px;
+    margin-right: 30px;
+}
+.intro h1{
+    text-align: center;
+    font-size:60px;
+    margin-bottom: 0;
+}
+.intro p{
+    position: absolute;
+    top:140px;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.cointainer{
+    position: relative;
+    top:60px;
+    left:120px;  
+}
+.favo{
+    position: relative;
+    top: 5px;
+    left:150px;
+    background-color: black;
+    width: 280px;
+    height: 50px;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 5px whitesmoke;
+    margin-bottom: 20px;
+}
+.favo h2{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.lang{
+    position: relative;
+    left:100px;
+    background-color: whitesmoke;
+    width: 180px;
+    height: 150px;
+    border-radius: 20px; 
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.lang img{
+    position:relative;
+    top:20px;
+    left:50px;
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#positionR{
+    position: relative;
+    top:20px;
+    left: 20px;
+}
+#ratingcheck{
+    border: 1px solid black;
+    background-color: red;
+    width:8px;
+    height: 8px;
+    border-radius: 50%;;
+    display: inline-block;
+}
+#ratingnocheck{
+    border: 1px solid black;
+    background-color: white;
+    width:8px;
+    height: 8px;
+    border-radius: 50%;;
+    display: inline-block;
+}
+.info{
+    position:relative;
+    top: -180px;
+    left: 110px;
+    background-color: white;
+    width: 450px;
+    height: 240px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+}
+.info h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.info p{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.cv{
+    position: relative;
+    top: -120px;
+    left: 150px;
+}
+.cv img{
+    height: 110px;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.certi{
+    position: relative;
+    top: -180px;
+}
+.certi img{
+    position:relative;
+    top:90px;
+    left:210px;
+}
+.certi h1{
+    position: relative;
+    top:80px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 3;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 1040px) {
+    .aBody{
+        height: 2020px;
+    }
+    .cointainer{
+        top:100px;
+        left:100px;
+        margin:0; 
+    }
+    .intro{
+        left: 170px;
+    }
+    .favo{
+        left:200px;
+    }
+    .lang{
+        left:160px;
+        width: 180px;
+        height: 150px;
+    }
+    .info{
+        top: 750px;
+        left: -230px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px;
+    }
+    .cv{
+        top: 260px;
+        left: 650px;;
+        width: 190px;
+        margin: 1px;
+    }
+    .certi{
+        top: 330px;
+        left: -220px;
+    }
+    .certi h1{
+        left: 80px;
+    }
+    .certi img{
+        width:550px
+    }
+
+}
+@media only screen and (max-width: 845px) {
+    .aBody{
+        height: 1900px;
+    }
+    #position{
+        left:-90px;
+    }
+    .lang{
+        left:100px;
+    }
+    .favo{
+        left:150px;
+    }
+    .info{
+        top: 120px;
+        left: 160px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px;
+    }
+    .cv{
+        top: 160px;
+        left: 200px;;
+        width: 190px;
+        margin: 1px;
+    }
+    .certi{
+        top: 80px;
+        left: 0px;
+    }
+    .certi h1{
+        left: 80px;
+    }
+    .certi img{
+        width:450px
+    }
+
+}
+
+@media only screen and (max-width: 545px) {
+    .aBody{
+        height: 2000px;
+    }
+    #position{
+        left:0px
+    }
+    .intro{
+        left: 15px;
+    }
+    .cointainer{
+        top:100px;
+        left:-50px;
+        
+    }
+    .info{
+        top: 150px;
+        left: 50px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px;
+    }
+    .cv{
+        top: 180px;
+        left: 50px;;
+        width: 190px;
+        margin: 1px;
+    }
+    .certi{
+        top: 150px;
+        left: -120px;
+    }
+    .certi h1{
+        font-size: 40px;
+        left: 160px;
+    }
+    .certi img{
+        width:350px
+    }
+}
+@media only screen and (max-width: 450px) {
+    .container{
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    .aBody{
+        height:  2350px;
+    }
+    #position{
+        left:0px;
+    }
+    .intro{
+        width: 320px;
+        height: 420px;
+        border-radius: 20px; 
+        top:80px;
+        left: 30px;
+    }
+    .intro h1{
+        position:relative;
+        top:-10px;
+        left:5px;
+        font-size: 45px;
+        margin-bottom: 0;
+    }
+    .intro p{
+        top:180px;
+        margin-left: 30px;
+    }
+    .favo{
+        width: 320px;
+        left: 20px;
+    }
+    .cointainer{
+        top:100px;
+        left:0px;   
+    }
+    .lang{
+        left:60px;
+        width: 240px;
+        height: 120px;
+    }
+    .lang img{
+        left:75px;
+        width: 80px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+    #positionR{
+        top: -10px;
+        left: 65px;
+    }
+    .info{
+        top: 100px;
+        left: 25px;
+        background-color: white;
+        width: 320px;
+        height: 300px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px;
+    }
+    .info h3{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .cv{
+        top: 150px;
+        left: 40px;;
+        width: 190px;
+        margin: 1px;
+    }
+    .certi{
+        top: 120px;
+        left: -190px;
+    }
+}
+@media only screen and (max-width: 290px) {
+    .aBody{
+        height: 2200px;
+        }
+    .intro{
+        width: 230px;
+        height: 400px;
+        border-radius: 20px; 
+        top:80px;
+        left: 10px;
+        margin-right: 0;
+    }
+    .intro h1{
+        top:10px;
+        left:5px;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .intro p{
+        top:160px;
+        left: 10px;
+        font-size: 14px;
+    }
+    .favo{
+        margin-right: 0px;
+        width: 220px;
+        left: 20px;
+    }
+    .cointainer{
+        top:100px;
+        left:0px;   
+    }
+    .lang{
+        left:40px;
+        width: 190px;
+        height: 120px;
+        border-radius: 20px; 
+        box-shadow: 5px 5px 5px black;
+        margin-bottom: 20px;
+    }
+    .lang img{
+        left:55px;
+        width: 60px;
+        margin-bottom: 40px;
+    }
+    #positionR{
+        top: -10px;
+        left: 40px;
+    }
+    .info{
+        left: 20px;
+        width: 230px;
+        height: 300px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px;
+    }
+    .info h3{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .info p{
+        font-size: 17px;
+    }
+    .cv{
+        top: 150px;
+        left: 40px;;
+        width: 190px;
+        margin: 1px;
+    }
+    #ratingcheck{
+        border: 1px solid black;
+        background-color: red;
+        width:6px;
+        height: 6px;
+        border-radius: 50%;;
+        display: inline-block;
+    }
+    #ratingnocheck{
+        width:6px;
+        height: 6px;
+    }
+    .certi{
+        top:100px;
+        left: 0px;
+    }
+    .certi img{
+        width:200px;
+        left:30px
+    }
+    .certi h1{
+        left: 20px;
+        font-size: 25px;
+    }
+}
